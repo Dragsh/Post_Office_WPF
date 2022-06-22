@@ -1,0 +1,168 @@
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe.config
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.pdb
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.dll
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.xml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csprojAssemblyReference.cache
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_Content.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.cache
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.lref
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.g.resources
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.Properties.Resources.resources
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.GenerateResource.cache
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CoreCompileInputs.cache
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CopyComplete
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.exe
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.pdb
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\Dictionary\PostOfficeDictionary.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.baml
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.g.cs
+C:\Users\Shvai\source\repos\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csprojResolveAssemblyReference.cache
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_Content.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.cache
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.lref
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.exe
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.pdb
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe.config
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.pdb
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.dll
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.dll
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.xml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.xml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.resources.dll
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\Dictionary\PostOfficeDictionary.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.baml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.g.resources
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.Properties.Resources.resources
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.GenerateResource.Cache
+E:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CoreCompileInputs.cache
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\System.Windows.Interactivity.dll
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\System.Windows.Interactivity.xml
+E:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe.config
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.pdb
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\Microsoft.Expression.Interactions.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\System.Windows.Interactivity.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.xml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.xml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\Microsoft.Expression.Interactions.xml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\System.Windows.Interactivity.xml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.resources.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csprojAssemblyReference.cache
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_Content.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.cache
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.lref
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\Dictionary\PostOfficeDictionary.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.baml
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.g.resources
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.Properties.Resources.resources
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.GenerateResource.cache
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CoreCompileInputs.cache
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CopyComplete
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.exe
+O:\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.pdb
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe.config
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.exe
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\PostOffice.pdb
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.dll
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.dll
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\System.Windows.Interactivity.dll
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.xml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\EntityFramework.SqlServer.xml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\System.Windows.Interactivity.xml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.resources.dll
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\LogWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_Content.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.cache
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice_MarkupCompile.lref
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\App.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\Dictionary\PostOfficeDictionary.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\MainWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPostmanWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddPublicationWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubcriberWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AddSubscriptionWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\ChangePostmanWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\LogWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\QuittanceWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.g.resources
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.Properties.Resources.resources
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.GenerateResource.cache
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CoreCompileInputs.cache
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csproj.CopyComplete
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.exe
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.pdb
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\PostOffice.csprojAssemblyReference.cache
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AboutWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\AboutWindow.baml
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\SplashScreenWindow.g.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\View\SplashScreenWindow.baml

@@ -1,0 +1,20 @@
+﻿PostOffice
+
+
+winexe
+C#
+.cs
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\obj\Debug\
+PostOffice
+none
+false
+DEBUG;TRACE
+D:\Шаг\Новая папка\Курсовая С#\CourseProjectMVVM_Shvaiko\PostOffice\App.xaml
+11184108855
+2-1742115314
+421898618443
+181948545736
+Dictionary\PostOfficeDictionary.xaml;MainWindow.xaml;View\AboutWindow.xaml;View\AddPostmanWindow.xaml;View\AddPublicationWindow.xaml;View\AddSubcriberWindow.xaml;View\AddSubscriptionWindow.xaml;View\ChangePostmanWindow.xaml;View\LogWindow.xaml;View\QuittanceWindow.xaml;View\SplashScreenWindow.xaml;
+
+True
+

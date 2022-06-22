@@ -1,0 +1,75 @@
+﻿<Window x:Class="PostOffice.View.ChangePostmanWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostOffice.View"
+        mc:Ignorable="d"
+        Title="Сменить почтальона" Height="300" Width="400" FontFamily="Verdana" FontSize="14" >
+    <Window.Resources>
+        <!--Кнопка Ок -->
+        <Button x:Key="BtnOk" Template="{StaticResource BtnRadius}" Margin="50,10,40,10"
+                Content="Сохранить"  Foreground="{DynamicResource ButtonTextGreen}" 
+                Background="{DynamicResource ButtonColorBackground}" Click="BtnSave_Click"  >
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+
+        <!--Кнопка Cancel -->
+        <Button x:Key="BtnCancel" Template="{StaticResource BtnRadius}"  Margin="50,10,40,10"
+                Content="Отмена"  Foreground="{DynamicResource ButtonTextRed}"
+                Background="{DynamicResource ButtonColorBackground}" Click="BtnCancel_Click" >
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="MainStackPanel" Grid.Row="0" Orientation="Vertical">
+
+            <GroupBox Margin="5" Height="50"  Header="Участок" VerticalContentAlignment="Center">
+                <TextBlock  x:Name="TxbSector" TextAlignment="Left" VerticalAlignment="Center"
+                    Text="{Binding Path=NumSector}" />
+            </GroupBox>
+
+            <GroupBox Margin="5" Header="Текущий почтальон(паспорт)" Height="50" VerticalContentAlignment="Center" > 
+                <TextBlock FontSize="14" x:Name="TxbNowPostman" TextAlignment="Left" VerticalAlignment="Center" >
+                    <TextBlock.Text>
+                        <MultiBinding StringFormat="{}{0}, {1} {2} {3}">
+                            <Binding Path="Postman.Passport"/>
+                            <Binding Path="Postman.Surname"/>
+                            <Binding Path="Postman.Name" />
+                            <Binding Path="Postman.Patronymic"/>
+                        </MultiBinding>
+                    </TextBlock.Text>
+                </TextBlock>
+            </GroupBox>
+
+            <GroupBox Margin="5" Height="50" Header="Новый почтальон" >
+                <ComboBox    x:Name="CbxPostman" DisplayMemberPath="Passport"  SelectedItem="{Binding Path=Postman, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalContentAlignment="Center" />
+
+            </GroupBox>
+
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal">
+                <StaticResource    ResourceKey="BtnOk" />
+                <StaticResource   ResourceKey="BtnCancel" />
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+</Window>

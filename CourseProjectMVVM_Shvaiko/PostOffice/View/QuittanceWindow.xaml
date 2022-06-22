@@ -1,0 +1,56 @@
+﻿<Window x:Class="PostOffice.View.QuittanceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostOffice.View"
+        mc:Ignorable="d"
+        Title="Квитанция" FontFamily="Verdana" Icon="../Images/document_report.ico"
+        FontSize="14" Height="280" Width="355" x:Name="WindowMain">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Border  BorderBrush="Black" BorderThickness="3" Margin="5">
+            <Grid x:Name="GridQuittance">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.ColumnSpan="2" FontWeight="Black" FontStyle="Italic" Text="Почта: 'Экспресс'" HorizontalAlignment="Center" Margin="0,5,0,5" VerticalAlignment="Center"/>
+
+                <StackPanel ToolTip="Id подписчика" Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+                    <TextBlock Text="Id :" FontWeight="Bold" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                    <TextBlock Text="{Binding Path=Subscriber.Id, Mode=Default, UpdateSourceTrigger=Default}" VerticalAlignment="Center" Margin="5,0,5,0" Width="100"  />
+                </StackPanel>
+                <TextBlock Grid.Row="1" Grid.Column="1" Text ="{Binding  Path=Subscriber.FullNameShort, Mode=Default, UpdateSourceTrigger=Default}" Width="Auto" Margin="5" VerticalAlignment="Center" TextAlignment="Left" />
+                <TextBlock  Text="Адресс:" FontStyle="Italic" Grid.Row="2" Grid.Column="0" Margin="5" VerticalAlignment="Center" />
+                <TextBlock Grid.Row="2" Grid.Column="1" Width="auto" Text ="{Binding Path=Subscriber.Address.FullAddress, Mode=Default, UpdateSourceTrigger=Default}" Margin="5" VerticalAlignment="Center" Height="auto" TextWrapping="WrapWithOverflow" />
+                <TextBlock  FontStyle="Italic" Text="Издание:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"  Margin="5"/>
+                <TextBlock  Width="auto" Text="{Binding Path=Publication.PublicationTitle, Mode=Default, UpdateSourceTrigger=Default}" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock  FontStyle="Italic" Text="Срок подписки: " Grid.Row="4" Grid.Column="0" VerticalAlignment="Center"  Margin="5"/>
+                <TextBlock  Width="auto" Text="{Binding StringFormat={}{0} мес., Path=Duration, Mode=Default, UpdateSourceTrigger=Default }" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock FontStyle="Italic" Text="Цена:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center"  Margin="5"/>
+                <TextBlock  Width="auto" FontWeight="Bold" Text="{Binding StringFormat={}{0} руб.,  Path=FullPrice, Mode=Default, UpdateSourceTrigger=Default}" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock FontStyle="Italic" Text="Дата подписки:" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center"  Margin="5"/>
+                <TextBlock  Width="auto" FontWeight="Bold" Text="{Binding  ConverterCulture='ru-Ru', StringFormat={}{0:D},  Path=StartDate, Mode=Default, UpdateSourceTrigger=Default}" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+            </Grid>
+
+        </Border>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button  ToolTip="Печать квитанции" Content="Печать" Width="90" Margin="130,5,0,5" Template="{StaticResource BtnRadius}" Click="Print_Quittance" />
+            
+        </StackPanel>
+    </Grid>
+</Window>

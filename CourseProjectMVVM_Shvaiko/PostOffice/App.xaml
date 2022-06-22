@@ -1,0 +1,82 @@
+﻿<Application x:Class="PostOffice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PostOffice"
+             xmlns:converter="clr-namespace:PostOffice.Converter"
+             xmlns:model="clr-namespace:PostOffice.Model"
+             >
+    <Application.Resources>
+
+        <ResourceDictionary >
+            <ResourceDictionary.MergedDictionaries>
+
+                <!--Словарь стилей элементов для окон-->
+                <ResourceDictionary Source="Dictionary/PostOfficeDictionary.xaml" />
+
+                <ResourceDictionary>
+                    <!--Конвертер для даты -->
+                    <converter:DateTimeConverter x:Key="DateConverter"/>
+                </ResourceDictionary>
+
+                <ResourceDictionary>
+                    <!--Шаблон для листбокс -->
+                    <DataTemplate x:Key="SubscriberTemplate" DataType="model:Subscriber">
+
+                        <Border BorderThickness="1" BorderBrush="LightBlue" Cursor="Hand" CornerRadius="2" Background="Azure" >
+                            <Border.Effect>
+                                <DropShadowEffect ShadowDepth="2" BlurRadius="2"/>
+                            </Border.Effect>
+                            <StackPanel Margin="10" Orientation="Horizontal">
+                                <Border BorderThickness="1" BorderBrush="Black"   Height="140" VerticalAlignment="Top" Margin="5,15,10,0" Padding="5,0,5,10" Background="White">
+                                    <Border.Effect>
+                                        <DropShadowEffect/>
+                                    </Border.Effect>
+                                    <Grid Margin="0,5,0,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+
+                                        <!-- выводим фото подписчика Binding StringFormat=Итоговая цена {0} рублей, Source={StaticResource nexusPhone}, Path=Price  -->
+                                        <Image Width="100" ToolTip="{Binding Path=Id}" Height="100" Source="{Binding Path=PhotoPath, TargetNullValue='../Photos/ChapkoConstantin.png' }" />
+                                        <TextBlock ToolTip="Номер участка" Margin="0,10,0,0"  Grid.Row="1" FontSize="12" FontWeight="Bold"
+                                          Text="{Binding Path=Address.Sector.NumSector}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Grid>
+                                </Border>
+                                <!-- рядом в столбик выводим данные подписчика-->
+                                <StackPanel Margin="10" Orientation="Vertical" >
+                                    <TextBlock Margin="0,4,0,0" ToolTip="{Binding Path=FullName}"   FontSize="16" FontWeight="Bold" Text="{Binding Path=FullNameShort}"  Width="150" MaxWidth="200" TextAlignment="Left" HorizontalAlignment="Left"/>
+                                    <GroupBox Header="Адрес" FontSize="12" >
+                                        <TextBlock FontSize="14" Text="{Binding Path=Address.FullAddress}" Margin="5 5 0 0" ToolTip="{Binding StringFormat={}{0} район, Path=Address.Street.District.DistrictTitle}" />
+                                    </GroupBox>
+                                    <GroupBox Header="Обслуживающий почтальон" FontSize="12" >
+                                        <TextBlock FontSize="14" ToolTip="{Binding Path=Address.Sector.Postman.FullName}" Text="{Binding Path=Address.Sector.Postman.FullNameShort}" Margin="5 5 0 0" />
+                                    </GroupBox>
+                                    <GroupBox Header="Кол-во подписок" FontSize="12">
+                                        <TextBlock FontSize="14"  Text="{Binding Path=Quantity, Mode=Default, UpdateSourceTrigger=PropertyChanged}" Margin="5 5 0 0" />
+                                    </GroupBox>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ResourceDictionary>
+
+                <ResourceDictionary>
+                    <!--Шаблон валидации textbox-->
+                    <ControlTemplate x:Key="ValidationFailed">
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderBrush="Red" BorderThickness="2" Width="Auto" Height="Auto" VerticalAlignment="Center">
+                                <AdornedElementPlaceholder />
+                            </Border>
+                            <TextBlock Foreground="Red" FontSize="26" VerticalAlignment="Center" FontWeight="Bold" Margin="5,0,0,0">!</TextBlock>
+                        </StackPanel>
+                    </ControlTemplate>
+
+                </ResourceDictionary>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+       
+    </Application.Resources>
+
+</Application>

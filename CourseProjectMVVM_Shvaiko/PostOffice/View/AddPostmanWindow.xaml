@@ -1,0 +1,80 @@
+﻿<Window x:Class="PostOffice.View.AddPostmanWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostOffice.View"
+        mc:Ignorable="d"
+        Title="Добавить почтальона" Height="350" Width="400" FontFamily="Verdana" FontSize="14">
+    <Window.Resources>
+        <!--Кнопка Ок -->
+        <Button x:Key="BtnOk" Template="{StaticResource BtnRadius}" Margin="50,10,40,10"
+                Content="Сохранить"  Foreground="{DynamicResource ButtonTextGreen}" 
+                Background="{DynamicResource ButtonColorBackground}" Click="BtnSave_Click"  >
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+
+        <!--Кнопка Cancel -->
+        <Button x:Key="BtnCancel" Template="{StaticResource BtnRadius}"  Margin="50,10,40,10"
+                Content="Отмена"  Foreground="{DynamicResource ButtonTextRed}"
+                Background="{DynamicResource ButtonColorBackground}" Click="BtnCancel_Click" >
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="MainStackPanel" Grid.Row="0" Orientation="Vertical" DataContext="{Binding Postman}" >
+
+            <GroupBox Margin="5,5,15,5" Height="50" Header="Фамилия" >
+                <TextBox  x:Name="TxbSurname"  TextAlignment="Left"  VerticalContentAlignment="Center"
+                         Text="{Binding Path= Surname, Mode=TwoWay, TargetNullValue=Заика, ValidatesOnExceptions=True,
+                    ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=Default }" 
+                         Validation.ErrorTemplate="{StaticResource ValidationFailed}" 
+                         SpellCheck.IsEnabled="True" Language="ru-ru"/>
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Header="Имя" Height="50" >
+                <TextBox  TextAlignment="Left" VerticalContentAlignment="Center"
+                         Validation.ErrorTemplate="{StaticResource ValidationFailed}" SpellCheck.IsEnabled="True" Language="ru-ru"  x:Name="TxbName" 
+                         Text="{Binding Path=Name, Mode=Default, TargetNullValue=Владимир, UpdateSourceTrigger=Default, ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"/>
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Height="50"  Header="Отчество">
+                <TextBox  VerticalContentAlignment="Center" Validation.ErrorTemplate="{StaticResource ValidationFailed}" SpellCheck.IsEnabled="True" Language="ru-ru"
+                    x:Name="TxbPatronumic"  Text="{Binding Path=Patronymic, Mode=Default, TargetNullValue=Иванович, UpdateSourceTrigger=Default, ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"/>
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Height="50"  Header="Паспорт"  >
+                <TextBox VerticalContentAlignment="Center"
+                    x:Name="TxbPassport" Validation.ErrorTemplate="{StaticResource ValidationFailed}" SpellCheck.IsEnabled="True" Language="ru-ru"
+                    Text="{Binding Path=Passport, Mode=Default, TargetNullValue=YH876545, UpdateSourceTrigger=Default, ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True }"/>
+            </GroupBox>
+
+
+
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal">
+                <StaticResource    ResourceKey="BtnOk" />
+                <StaticResource   ResourceKey="BtnCancel" />
+            </StackPanel>
+
+            
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,83 @@
+﻿<Window x:Class="PostOffice.View.AddPublicationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostOffice.View"
+        mc:Ignorable="d"
+        Title="Добавить издание" Height="400" Width="400"
+        FontFamily="Verdana" FontSize="14" Icon="../Images/document_report.ico">
+<Window.Resources>
+    <!--Кнопка Ок -->
+    <Button x:Key="BtnOk" Template="{StaticResource BtnRadius}" Margin="50,10,40,10"
+            Content="Сохранить"  Foreground="{DynamicResource ButtonTextGreen}" 
+            Background="{DynamicResource ButtonColorBackground}" Click="BtnSave_Click"  >
+        <Button.Effect>
+            <DropShadowEffect BlurRadius="2" ShadowDepth="3"/>
+        </Button.Effect>
+    </Button>
+
+    <!--Кнопка Cancel -->
+    <Button x:Key="BtnCancel" Template="{StaticResource BtnRadius}"  Margin="50,10,40,10"
+            Content="Отмена"  Foreground="{DynamicResource ButtonTextRed}"
+            Background="{DynamicResource ButtonColorBackground}" Click="BtnCancel_Click"  >
+        <Button.Effect>
+            <DropShadowEffect BlurRadius="2" ShadowDepth="3"/>
+        </Button.Effect>
+    </Button>
+
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="Main" Grid.Row="0" Orientation="Vertical" DataContext="{Binding Publication}">
+
+            <GroupBox Margin="5,5,15,5" Height="50"  Header="Название" >
+                <TextBox  x:Name="TxbTitle" TextAlignment="Left" VerticalContentAlignment="Center"
+                         Text="{Binding Path= PublicationTitle, Mode=TwoWay, TargetNullValue=Химия,  ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=Default}" 
+                          Validation.ErrorTemplate="{StaticResource ValidationFailed}" 
+                         SpellCheck.IsEnabled="True" Language="ru-ru"  />
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Header="Тип издания" Height="50" >
+                <ComboBox  x:Name="CbxPublicationType" DisplayMemberPath="Title" SelectedItem="{Binding Path=PublicationType, Mode=Default, UpdateSourceTrigger=Default}"/>
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Height="50" Header="Индекс издания" >
+                <TextBox  x:Name="TxbIndex" VerticalContentAlignment="Center" Validation.ErrorTemplate="{StaticResource ValidationFailed}"
+                          Text="{Binding Path=PublicationIndex, Mode=TwoWay, TargetNullValue=0, ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=Default}"
+                             />
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Height="50" Header="Цена подписки за 1 мес." >
+                <TextBox  x:Name="TxbPrice" VerticalContentAlignment="Center" Validation.ErrorTemplate="{StaticResource ValidationFailed}"
+                         Text="{Binding Path=Price, TargetNullValue=0, Mode=TwoWay, ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=Default}"
+                            />
+            </GroupBox>
+
+            <GroupBox Margin="5,5,15,5" Height="50" Header="Количество экземпляров">
+                <TextBox  x:Name="TxbAmount" VerticalContentAlignment="Center" Validation.ErrorTemplate="{StaticResource ValidationFailed}"
+                          Text="{Binding Path=Amount, Mode=TwoWay, TargetNullValue=0, ValidatesOnExceptions=True, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=Default}" 
+                           />
+            </GroupBox>
+
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <StaticResource    ResourceKey="BtnOk" />
+                <StaticResource   ResourceKey="BtnCancel" />
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+</Window>
